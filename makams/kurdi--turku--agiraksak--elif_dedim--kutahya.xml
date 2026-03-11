@@ -1,0 +1,3335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.0">
+  <work>
+    <work-title>Elif Dedim Be Dedim</work-title>
+  </work>
+  <identification>
+  <creator type="composer">Beste: Hisarlı Ahmet</creator>
+  <creator type="lyricist">[Anonim]</creator>
+  <rights>kurdi--turku--agiraksak--elif_dedim--kutahya.xml</rights>
+  </identification>
+<defaults>
+  <scaling>
+      <millimeters>7.05556</millimeters>
+      <tenths>40</tenths>
+      </scaling>
+    <page-layout>
+      <page-height>1683.36</page-height>
+      <page-width>1190.88</page-width>
+      <page-margins type="even">
+        <left-margin>100</left-margin>
+        <right-margin>100</right-margin>
+        <top-margin>56.6929</top-margin>
+        <bottom-margin>113.386</bottom-margin>
+        </page-margins>
+      <page-margins type="odd">
+        <left-margin>100</left-margin>
+        <right-margin>100</right-margin>
+        <top-margin>56.6929</top-margin>
+        <bottom-margin>113.386</bottom-margin>
+        </page-margins>
+      </page-layout>
+    <word-font font-family="FreeSerif" font-size="10"/>
+    <lyric-font font-family="FreeSerif" font-size="11"/>
+    </defaults>
+  <credit page="1">
+    <credit-words default-x="595.276" default-y="1627.09" justify="center" valign="top" font-size="24">Elif Dedim Be Dedim</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-words default-x="1133.86" default-y="1527.09" justify="right" valign="bottom" font-size="12">Beste: Hisarlı Ahmet</credit-words>
+          <credit-words>[Anonim]</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-words default-x="595.44" default-y="1569.97" justify="center" valign="top" font-size="14">Makam: Kürdî Türkü</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-words default-x="56.6929" default-y="1526.67" justify="left" valign="bottom" font-size="12">Usul: Ağıraksak</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-words default-x="595.44" default-y="113.386" justify="center" valign="bottom">kurdi--turku--agiraksak--elif_dedim--kutahya.xml</credit-words>
+</credit>
+<part-list>
+<score-part id="P1">
+<part-name>S</part-name>
+<part-abbreviation>S</part-abbreviation>
+<score-instrument id="P1-I1">
+<instrument-name>S</instrument-name>
+</score-instrument>
+<midi-device id="P1-I1" port="1"></midi-device>
+<midi-instrument id="P1-I1">
+<midi-channel>1</midi-channel>
+<midi-program>1</midi-program>
+<volume>80</volume>
+<pan>0</pan>
+</midi-instrument>
+</score-part>
+</part-list>
+<part id="P1">
+<measure number="1">
+    <attributes>
+      <divisions>192</divisions>
+      <time>
+        <beats>9</beats>
+        <beat-type>4</beat-type>
+      </time>
+      </attributes>
+      <attributes>
+        <key>
+        <key-step>B</key-step>
+        <key-alter>-1</key-alter>
+        <key-accidental>flat</key-accidental>
+        <key-octave number="1">4</key-octave>
+        </key>
+      </attributes>
+    <barline location="left">
+      <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+        </barline>
+    <direction placement="above">
+      <direction-type>
+        <metronome parentheses="no">
+          <beat-unit>quarter</beat-unit>
+          <per-minute>63</per-minute>
+          </metronome>
+        </direction-type>
+      <sound tempo="63"/>
+      </direction>
+ <direction placement="above">
+   <direction-type>
+     <words default-y="40" font-family="FreeSerif">Usul: Ağıraksak</words>
+     </direction-type>
+   </direction>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+<note>
+<grace slash="yes"/>
+<pitch>
+<step>G</step>
+<alter>0.01886792</alter>
+<octave>5</octave>
+</pitch>
+<voice>1</voice>
+<type>eighth</type>
+<notations>
+<slur type="start" number="2"/>
+</notations>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+    <notations>
+      <slur type="stop" number="2"/>
+    </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>24</duration>
+    <type>32nd</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>24</duration>
+    <type>32nd</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+    <barline location="right">
+      <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"/>
+        </barline>
+</measure>
+<measure number="2">
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+</measure>
+<measure number="3">
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>24</duration>
+    <type>32nd</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>24</duration>
+    <type>32nd</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+</measure>
+<measure number="4">
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+    <barline location="left">
+      <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+        </barline>
+    <attributes>
+      <divisions>192</divisions>
+      <time>
+        <beats>11</beats>
+        <beat-type>4</beat-type>
+      </time>
+      </attributes>
+</measure>
+<measure number="5">
+    <direction placement="above">
+      <direction-type>
+        <metronome parentheses="no">
+          <beat-unit>quarter</beat-unit>
+          <per-minute>60</per-minute>
+          </metronome>
+        </direction-type>
+      <sound tempo="60"/>
+      </direction>
+ <direction placement="above">
+   <direction-type>
+     <words default-y="40" font-family="FreeSerif">Usul: Tekvuruş</words>
+     </direction-type>
+   </direction>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type size="cue">quarter</type>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>SAZ </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type size="cue">eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type size="cue">eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>E</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>E</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>lif </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>li</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>de</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>fim </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>dim </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>nok</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>144</duration>
+    <type>eighth</type><dot/>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>be </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>ta</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+<note>
+<grace slash="yes"/>
+<pitch>
+<step>C</step>
+<alter>0.00000000</alter>
+<octave>5</octave>
+</pitch>
+<voice>1</voice>
+<type>eighth</type>
+<notations>
+<slur type="start" number="2"/>
+</notations>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+    <notations>
+      <slur type="stop" number="2"/>
+    </notations>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>de</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>lan</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>dim_</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>dı </text>
+    </lyric>
+  </note>
+</measure>
+<measure number="6">
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>am</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>am</text>
+    </lyric>
+  </note>
+<note>
+<grace slash="yes"/>
+<pitch>
+<step>B</step>
+<alter>-1.03773585</alter>
+<octave>4</octave>
+</pitch>
+<voice>1</voice>
+<type>eighth</type>
+<accidental>flat</accidental>
+<notations>
+<slur type="start" number="2"/>
+</notations>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+    <notations>
+      <slur type="stop" number="2"/>
+    </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+    <attributes>
+      <divisions>192</divisions>
+      <time>
+        <beats>9</beats>
+        <beat-type>4</beat-type>
+      </time>
+      </attributes>
+    <direction placement="above">
+      <direction-type>
+        <metronome parentheses="no">
+          <beat-unit>quarter</beat-unit>
+          <per-minute>63</per-minute>
+          </metronome>
+        </direction-type>
+      <sound tempo="63"/>
+      </direction>
+ <direction placement="above">
+   <direction-type>
+     <words default-y="40" font-family="FreeSerif">Usul: Ağıraksak</words>
+     </direction-type>
+   </direction>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>man  </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>man  </text>
+    </lyric>
+  </note>
+<note>
+  <rest/>
+  <duration>192</duration>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>Kız </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>Az </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>288</duration>
+    <type>quarter</type><dot/>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>ben </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>ver</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>144</duration>
+    <type>eighth</type><dot/>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>sa</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>dim </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>na </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>çok</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+  </note>
+</measure>
+<measure number="7">
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+<note>
+  <rest/>
+  <duration>96</duration>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>ne </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>ça</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <accidental>natural</accidental>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+<note>
+<grace slash="yes"/>
+<pitch>
+<step>A</step>
+<alter>0.05660377</alter>
+<octave>5</octave>
+</pitch>
+<voice>1</voice>
+<type>eighth</type>
+<notations>
+<slur type="start" number="2"/>
+</notations>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>64</duration>
+    <type>eighth</type>
+    <time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification>
+    <beam number="1">begin</beam>
+    <notations>
+      <slur type="stop" number="2"/>
+    </notations>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>de</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>lan</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>64</duration>
+    <type>eighth</type>
+    <time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>64</duration>
+    <type>eighth</type>
+    <time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification>
+    <beam number="1">end</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>dim  </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>dı  </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>SAZ </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+</measure>
+<measure number="8">
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+    <barline location="right">
+      <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"/>
+        </barline>
+    <barline location="left">
+      <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+        </barline>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type size="cue">quarter</type>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>SAZ </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type size="cue">eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type size="cue">eighth</type>
+    <beam number="1">end</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>.</text>
+    </lyric>
+  </note>
+<note>
+  <rest/>
+  <duration>96</duration>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>Kuş </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>Ye</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>ka</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>tiş_</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>na</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>a</text>
+    </lyric>
+  </note>
+<note>
+<grace slash="yes"/>
+<pitch>
+<step>B</step>
+<alter>-1.03773585</alter>
+<octave>5</octave>
+</pitch>
+<voice>1</voice>
+<type>eighth</type>
+<accidental>flat</accidental>
+<notations>
+<slur type="start" number="2"/>
+</notations>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+    <notations>
+      <slur type="stop" number="2"/>
+    </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>dı </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>nam </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+  </note>
+</measure>
+<measure number="9">
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+    <attributes>
+      <divisions>192</divisions>
+      <time>
+        <beats>11</beats>
+        <beat-type>4</beat-type>
+      </time>
+      </attributes>
+    <direction placement="above">
+      <direction-type>
+        <metronome parentheses="no">
+          <beat-unit>quarter</beat-unit>
+          <per-minute>60</per-minute>
+          </metronome>
+        </direction-type>
+      <sound tempo="60"/>
+      </direction>
+ <direction placement="above">
+   <direction-type>
+     <words default-y="40" font-family="FreeSerif">Usul: Tekvuruş</words>
+     </direction-type>
+   </direction>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>ka</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>ye</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>lem_</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>tiş </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>144</duration>
+    <type>eighth</type><dot/>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>144</duration>
+    <type>eighth</type><dot/>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>64</duration>
+    <type>eighth</type>
+    <time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification>
+    <beam number="1">begin</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>ol</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>ba</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>64</duration>
+    <type>eighth</type>
+    <time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>64</duration>
+    <type>eighth</type>
+    <time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes></time-modification>
+    <beam number="1">end</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+</measure>
+<measure number="10">
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>288</duration>
+    <type>quarter</type><dot/>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>san_</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>bam_</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>a</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>a</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>man  </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>man  </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+    <attributes>
+      <divisions>192</divisions>
+      <time>
+        <beats>14</beats>
+        <beat-type>4</beat-type>
+      </time>
+      </attributes>
+    <direction placement="above">
+      <direction-type>
+        <metronome parentheses="no">
+          <beat-unit>quarter</beat-unit>
+          <per-minute>57</per-minute>
+          </metronome>
+        </direction-type>
+      <sound tempo="57"/>
+      </direction>
+<note>
+<grace slash="yes"/>
+<pitch>
+<step>E</step>
+<alter>0.07547170</alter>
+<octave>5</octave>
+</pitch>
+<voice>1</voice>
+<type>eighth</type>
+<notations>
+<slur type="start" number="2"/>
+</notations>
+  </note>
+ <direction placement="above">
+   <direction-type>
+     <words default-y="40" font-family="FreeSerif">Usul: Türkdarbı</words>
+     </direction-type>
+   </direction>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <notations>
+      <slur type="stop" number="2"/>
+    </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>Ah </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>Ah </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>ya</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>çe</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>zıl</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>yi</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>G</step>
+      <alter>-0.03773585</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>maz </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>zim </text>
+    </lyric>
+  </note>
+<note>
+<grace slash="yes"/>
+<pitch>
+<step>E</step>
+<alter>0.07547170</alter>
+<octave>5</octave>
+</pitch>
+<voice>1</voice>
+<type>eighth</type>
+<notations>
+<slur type="start" number="2"/>
+</notations>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <notations>
+      <slur type="stop" number="2"/>
+    </notations>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>be</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>boh</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+  </note>
+</measure>
+<measure number="11">
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+  </note>
+  <note>
+    <pitch>
+      <step>F</step>
+      <alter>-0.07547169</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>nim </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>ça</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>D</step>
+      <alter>-0.01886792</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>single</syllabic>
+      <text>der</text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>single</syllabic>
+      <text>lan</text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>E</step>
+      <alter>0.01886793</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>C</step>
+      <alter>-0.05660377</alter>
+      <octave>5</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>48</duration>
+    <type>16th</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>B</step>
+      <alter>-1.09433962</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">continue</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
+    <lyric number="1">
+      <syllabic>begin</syllabic>
+      <text>dim  </text>
+    </lyric>
+    <lyric number="2">
+      <syllabic>begin</syllabic>
+      <text>dı  </text>
+    </lyric>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>192</duration>
+    <type>quarter</type>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">begin</beam>
+  </note>
+  <note>
+    <pitch>
+      <step>A</step>
+      <alter>0.00000000</alter>
+      <octave>4</octave>
+      </pitch>
+    <duration>96</duration>
+    <type>eighth</type>
+    <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
+  </note>
+    <barline location="right">
+      <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"/>
+        </barline>
+</measure>
+</part>
+</score-partwise>
