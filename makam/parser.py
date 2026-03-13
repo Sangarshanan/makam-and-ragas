@@ -1,5 +1,7 @@
-from pathlib import Path
 # Makam MusicXML parser for Turkish makam corpus
+
+from pathlib import Path
+from typing import Dict, List, Tuple
 import xml.etree.ElementTree as ET
 
 # Step to semitone mapping for Western pitch names

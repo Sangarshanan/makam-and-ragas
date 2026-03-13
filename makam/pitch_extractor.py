@@ -52,3 +52,26 @@ class MakamPitchCurve:
 		ax.grid(True, linestyle='--', alpha=0.5)
 		plt.tight_layout()
 		plt.show()
+
+
+def load_makam_notes(xml_path: str) -> Tuple[List[Tuple[float, float]], Dict]:
+	"""Return list of (pitch_cents_relative_to_tonic, duration) tuples for melody shape comparison."""
+	try:
+		metadata, pitches, durations, tonic_pitch = parse_makam_xml(xml_path)
+	except Exception:
+		return [], {'parse_error': True}
+
+	# Fallback: read makam/usul from filename if not found in XML credits
+	if 'makam' not in metadata or 'usul' not in metadata:
+		parts = Path(xml_path).stem.split('--')
+		if 'makam' not in metadata and len(parts) > 0:
+			metadata['makam'] = parts[0]
+		if 'usul' not in metadata and len(parts) > 2:
+			metadata['usul'] = parts[2]
+
+	notes: List[Tuple[float, float]] = [
+		((p - tonic_pitch) * 100.0, float(d))
+		for p, d in zip(pitches, durations)
+		if d > 0
+	]
+	return notes, metadata

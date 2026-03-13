@@ -389,30 +389,9 @@ class PitchExtractor:
                 tonic_freq=self.tonic_freq
             )
         
-        # Calculate total duration
-        total_time = max(e.start_time + e.duration for e in events)
-        
-        # Create time array
-        num_samples = int(total_time * self.samples_per_beat)
-        times = np.linspace(0, total_time, num_samples)
-        frequencies = np.zeros(num_samples)
-        
-        for event in events:
-            start_idx = int(event.start_time * self.samples_per_beat)
-            end_idx = int((event.start_time + event.duration) * self.samples_per_beat)
-            end_idx = min(end_idx, num_samples)
-            
-            if event.frequency == 0:
-                # Rest - keep as zero
-                continue
-            
-            if event.is_meend and event.meend_target > 0:
-                # Create glide from current frequency to target
-                glide = np.linspace(event.frequency, event.meend_target, end_idx - start_idx)
-                frequencies[start_idx:end_idx] = glide
-            else:
-                # Constant frequency
-                frequencies[start_idx:end_idx] = event.frequency
+        # One sample per note onset
+        times = np.array([e.start_time for e in events])
+        frequencies = np.array([e.frequency for e in events])
         
         return PitchCurve(
             times=times,
@@ -468,8 +447,7 @@ def plot_pitch_curve(curve: PitchCurve,
     # Convert to cents relative to tonic for better visualization
     cents = 1200 * np.log2(freqs_valid / curve.tonic_freq)
     
-    ax.plot(times_valid, cents, 'b-', marker='o', markersize=3, linewidth=1.5, label='Pitch')
-    ax.scatter(times_valid[::10], cents[::10], c='blue', s=5, alpha=0.5)
+    ax.plot(times_valid, cents, marker='o', markersize=3, linewidth=1.5, label='Pitch')
     
     if show_note_lines:
         # Add horizontal lines for each note
@@ -599,53 +577,19 @@ def plot_multiple_curves(curves: List[PitchCurve],
     plt.close(fig)
 
 
-# Example usage and demonstration
-if __name__ == "__main__":
-    import sys
-    from pathlib import Path
-    
-    # Default paths
-    workspace = Path(__file__).parent
-    dataset_path = workspace / "Bhatkhande Dataset"
-    
-    # Get XML file from command line or use first file in dataset
-    if len(sys.argv) > 1:
-        xml_file = sys.argv[1]
-    else:
-        xml_files = list(dataset_path.glob("*.xml"))
-        if xml_files:
-            xml_file = str(xml_files[0])
-        else:
-            print("No XML files found in dataset")
-            sys.exit(1)
-    
-    # Set tonic frequency (common choices: C4=261.63, D4=293.66, etc.)
-    # For classical Hindustani, common tonics are around 240-300 Hz
-    tonic_freq = 261.63  # C4
-    
-    print(f"Extracting pitch curve from: {xml_file}")
-    print(f"Tonic frequency: {tonic_freq} Hz (Sa)")
-    print()
-    
-    # Create extractor
+def load_raga_notes(xml_path: str, tonic_freq: float = 261.63) -> Tuple[List[Tuple[float, float]], Dict]:
+    """Return list of (pitch_cents, duration) tuples for use in melody shape comparison."""
     extractor = PitchExtractor(tonic_freq=tonic_freq)
-    
-    # Extract pitch curve
-    curve = extractor.extract_pitch_curve(xml_file)
-    
-    print(f"Title: {curve.title}")
-    print(f"Raag: {curve.raag}")
-    print(f"Taal: {curve.taal}")
-    print(f"Duration: {curve.times[-1]:.1f} beats" if len(curve.times) > 0 else "No notes found")
-    print()
-    
-    # Plot the curve
-    if len(curve.frequencies) > 0:
-        # Generate output filename from input
-        input_path = Path(xml_file)
-        output_file = workspace / f"{input_path.stem}_pitch_curve.png"
-        
-        # Save and display plot
-        plot_pitch_curve(curve, show_note_lines=True, save_path=str(output_file))
-    else:
-        print("No pitch data to plot")
+    try:
+        events, meta = extractor.extract_pitch_events(xml_path)
+    except Exception:
+        return [], {'parse_error': True}
+
+    notes: List[Tuple[float, float]] = []
+    for ev in events:
+        if ev.frequency <= 0 or ev.duration <= 0:
+            continue
+        cents = 1200.0 * np.log2(ev.frequency / tonic_freq)
+        notes.append((cents, ev.duration))
+
+    return notes, meta

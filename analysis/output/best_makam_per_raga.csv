@@ -1,0 +1,13 @@
+raga,metric,agg,best_makam,best_usul,value
+Bhairav,shapeh_score,mean,Sabâ Peşrev,Çenber,30.80912903786218
+Bhairav,shapeh_score,median,Acem Selam,Devr-i Kebîr (28/8),31.117440770513966
+Bhairav,shapeh_score,max,Hüseynî Türkü,Curcuna,70.57512682111698
+Bhairav,shapeh_score,top_5_mean,Gerdâniye Türkü,Sofyan,61.504676390687315
+Poorvi,shapeh_score,mean,Sabâ Peşrev,Nîmsofyan,28.960926274942192
+Poorvi,shapeh_score,median,Sabâ Peşrev,Nîmsofyan,29.13070445729394
+Poorvi,shapeh_score,max,Beyâtî Şarkı,Ağıraksak,62.76826102998254
+Poorvi,shapeh_score,top_5_mean,Uşşak Şarkı,Düyek,58.20111699452819
+Todi,shapeh_score,mean,Sabâ Peşrev,Çenber,25.5465018250574
+Todi,shapeh_score,median,Uşşak Tevşihilâhi,Evsât,26.431730992502562
+Todi,shapeh_score,max,Sabâ Peşrev,Çenber,64.86448054269884
+Todi,shapeh_score,top_5_mean,Hicaz Şarkı,Düyek,58.101770153552835
