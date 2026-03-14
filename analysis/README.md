@@ -90,4 +90,14 @@ This is the most musically interesting design decision. We can argue that listen
 - **Penalizes mismatches at the start:** the first row and column accumulate gap penalties from position zero, so skipping the opening of either melody costs something
 - **Is forgiving at the end:** instead of reading the score from the bottom-right corner (which would require both melodies to be fully accounted for), it takes the maximum value anywhere in the entire table
 
+### Scripts
 
+Compared all makams and raags to fetch aggregated metrics across all of them
+```sh
+python analysis/run_comparison.py
+```
+
+Calculates the ShapeH metric and Re-ranks top-k results using Time scores (4-note spans, considers time dimension)
+```sh
+python analysis/run_shapetime_bhairav.py --top-k 10
+```

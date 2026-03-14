@@ -139,15 +139,15 @@ def _diff_between_spans(a: Span, b: Span, samples: int = 64) -> Tuple[float, flo
     ta = a.dpoly_time(u)
     tb = b.dpoly_time(u)
 
-    diff_p = float(np.trapz(np.abs(pa - pb), u))
-    diff_t = float(np.trapz(np.abs(ta - tb), u))
+    diff_p = float(np.trapezoid(np.abs(pa - pb), u))
+    diff_t = float(np.trapezoid(np.abs(ta - tb), u))
     return diff_p, diff_t
 
 
 def _diff_pitch_to_axis(a: Span, samples: int = 64) -> float:
     u = np.linspace(0.0, 1.0, samples)
     pa = a.dpoly_pitch(u)
-    return float(np.trapz(np.abs(pa), u))
+    return float(np.trapezoid(np.abs(pa), u))
 
 
 def time_insertion_score(a: Span) -> float:

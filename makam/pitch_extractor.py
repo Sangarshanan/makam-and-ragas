@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 # Pitch curve extractor for Turkish Makam MusicXML
 import numpy as np
+from pathlib import Path
+from typing import List, Tuple, Dict
 from .parser import parse_makam_xml
 
 class MakamPitchCurve:
@@ -60,14 +62,6 @@ def load_makam_notes(xml_path: str) -> Tuple[List[Tuple[float, float]], Dict]:
 		metadata, pitches, durations, tonic_pitch = parse_makam_xml(xml_path)
 	except Exception:
 		return [], {'parse_error': True}
-
-	# Fallback: read makam/usul from filename if not found in XML credits
-	if 'makam' not in metadata or 'usul' not in metadata:
-		parts = Path(xml_path).stem.split('--')
-		if 'makam' not in metadata and len(parts) > 0:
-			metadata['makam'] = parts[0]
-		if 'usul' not in metadata and len(parts) > 2:
-			metadata['usul'] = parts[2]
 
 	notes: List[Tuple[float, float]] = [
 		((p - tonic_pitch) * 100.0, float(d))

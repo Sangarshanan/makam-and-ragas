@@ -222,7 +222,7 @@ def main():
     if args.system == 'shapetime':
         pairwise_fields.append('shapetime_rank')
 
-    # _write_csv(out_dir / 'pairwise_similarity.csv', records, pairwise_fields)
+    _write_csv(out_dir / 'pairwise_similarity.csv', records, pairwise_fields)
 
     # Aggregate
     metric_cols = []
@@ -232,10 +232,10 @@ def main():
         metric_cols.append('time_score')
 
     agg_rows = _aggregate_metrics(records, ['raga', 'makam', 'usul'], metric_cols, top_k=args.top_k)
-    # _write_csv(out_dir / 'agg_similarity_by_raga_makam_usul.csv', agg_rows, ['raga', 'makam', 'usul', 'metric', 'agg', 'value'])
+    _write_csv(out_dir / 'agg_similarity_by_raga_makam_usul.csv', agg_rows, ['raga', 'makam', 'usul', 'metric', 'agg', 'value'])
 
     best_rows = _best_matches(agg_rows, 'raga', 'makam', 'usul')
-    # _write_csv(out_dir / 'best_makam_per_raga.csv', best_rows, ['raga', 'metric', 'agg', 'best_makam', 'best_usul', 'value'])
+    _write_csv(out_dir / 'best_makam_per_raga.csv', best_rows, ['raga', 'metric', 'agg', 'best_makam', 'best_usul', 'value'])
 
     print("Done")
 
