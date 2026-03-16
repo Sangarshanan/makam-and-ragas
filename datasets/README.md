@@ -24,7 +24,7 @@ SymbTr: A Turkish Makam Music Symbolic Representation Database has the represent
 Because Turkish makam music uses a much finer pitch palette than Western music (17, 24, or more tones per octave), the framework uses the Holdrian Comma as the basic intervallic unit. 
 
 - An octave is divided into 53 equal parts
-- 1 Hc is approximately 22.5 cents ($1200 / 53$).
+- 1 Hc is approximately 22.5 cents.
 - The database adopts 53TET as the master underlying tuning because it accommodates both the 24-note Classical system (KTM) and the 17-note Folk system (THM) with deviations of less than 1 cent.
 
 
