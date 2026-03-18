@@ -1,4 +1,4 @@
-# Comparative analysis of Turkish Makams and Hindustani Ragas
+# Comparative analysis of Makams and Ragas
 
 Symbolic analysis and comparative study of Turkish makams and Hindustani ragas.
 
