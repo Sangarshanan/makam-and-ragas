@@ -121,42 +121,6 @@ python analysis/plot_shapetime_analysis.py \
 	--top-n 15
 ```
 
-## Output Files
-
-### `analysis/output/`
-
-- `pairwise_similarity.csv`
-- `agg_similarity_by_raga_makam_usul.csv`
-- `best_makam_per_raga.csv`
-
-### `analysis/output/shapetime/`
-
-- `shapetime_pairwise.csv`
-- `shapetime_by_makam.csv`
-- `shapetime_by_makam_only.csv`
-
-### `analysis/output/shapetime/plots/` (generated)
-
-- Top-makam comparisons
-- Score distributions
-- ShapeH vs Time scatter
-- Rank distribution plots
-- Heatmaps and summary dashboard
-
-## Notebook Workflow
-
-Use notebooks for exploratory analysis and visual checks:
-
-- `raga-notebook.ipynb`
-- `makam-notebook.ipynb`
-- `phrase-similarity.ipynb`
-
-Recommended flow:
-
-1. Explore extraction/parsing behavior in notebooks.
-2. Run script-based batch experiments for reproducibility.
-3. Use plotting script for publishable figures.
-
 ## Reference Papers
 
 - “A study of the Raga Zeelaf and its relationship with Arabian traditional music”, A. Bhattacharya and D. K. Das, The Journal of Acoustical Society of India, vol. 50, no. 3–4, pp. 121–127, 2023.
