@@ -121,6 +121,30 @@ python analysis/plot_shapetime_analysis.py \
 	--top-n 15
 ```
 
+## Plots and Visualizations
+
+### Top 20 Raga-Makam Similarities
+
+![Top 20 Raga-Makam Similarities](media/too20raga-makam.png)
+
+### Pitch Curve Comparisons
+
+![Pitch curves comparison 1](media/pitch_curves.png)
+
+![Pitch curves comparison 2](media/pitch_curves2.png)
+
+![Pitch curves comparison 3](media/pitch_curves3.png)
+
+### Shape Similarity Plots
+
+![Shape plots 1](media/shape_plots_1.png)
+
+![Shape plots 2](media/shape_plots_2.png)
+
+![Shape plots 3](media/shape_plots_3.png)
+
+![Shape plots 4](media/shape_plots_4.png)
+
 ## Reference Papers
 
 - “A study of the Raga Zeelaf and its relationship with Arabian traditional music”, A. Bhattacharya and D. K. Das, The Journal of Acoustical Society of India, vol. 50, no. 3–4, pp. 121–127, 2023.
